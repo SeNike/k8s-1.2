@@ -5,8 +5,9 @@
 ### Задание 1. Создать Pod с именем hello-world
 
 1. Создать манифест (yaml-конфигурацию) Pod.
-2. Использовать image - gcr.io/kubernetes-e2e-test-images/echoserver:2.2.
-3. Подключиться локально к Pod с помощью `kubectl port-forward` и вывести значение (curl или в браузере).
+   [hello-world-pod.yaml](https://github.com/SeNike/k8s-1.2/blob/main/hello-world-pod.yaml)
+3. Использовать image - gcr.io/kubernetes-e2e-test-images/echoserver:2.2.
+4. Подключиться локально к Pod с помощью `kubectl port-forward` и вывести значение (curl или в браузере).
 
 ![IMG](https://github.com/SeNike/Study_24/blob/main/k8s/1.1/hello-world.png)
 
